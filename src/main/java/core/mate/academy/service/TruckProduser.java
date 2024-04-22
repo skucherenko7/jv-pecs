@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TruckProduser implements MachineProducer<Truck> {
-
     @Override
     public List<Truck> getMachines() {
         List<Truck> trucks = new ArrayList<>();

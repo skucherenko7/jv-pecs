@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BuldozerProduser implements MachineProducer<Bulldozer> {
-
     @Override
     public List<Bulldozer> getMachines() {
         List<Bulldozer> bulldozers = new ArrayList<>();
